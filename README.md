@@ -371,7 +371,7 @@ who are moreover loyal to its authority! Is there any excuse for such
 backwards behavior? Iran no doubt has yet greater contributions to
 make to civilization, if it will only be truly enabled to do so.
 
-## Immediate to-dos
+## High priority to-dos
 
 1. Make per-site config to accept callable function/method which accepts
   the site and title as args and can reject or change state, etc.
