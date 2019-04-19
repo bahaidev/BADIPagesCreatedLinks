@@ -373,6 +373,7 @@ make to civilization, if it will only be truly enabled to do so.
 
 ## High priority to-dos
 
+1. Option to disable on visited pages which are missing!
 1. Make per-site config to accept callable function/method which accepts
   the site and title as args and can reject or change state, etc.
   in a programmatic way
