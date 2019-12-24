@@ -1,5 +1,10 @@
 <?php
 
+// See https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties/issues/124
+if ( !defined( DB_SLAVE ) ) {
+    define( 'DB_SLAVE', DB_REPLICA );
+}
+
 require('CheckBADIPagesCreatedLinks.php');
 
 // https://www.mediawiki.org/wiki/Manual:Hooks/LoadExtensionSchemaUpdates
