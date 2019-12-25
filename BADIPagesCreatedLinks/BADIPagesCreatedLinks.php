@@ -2,7 +2,9 @@
 
 // See https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties/issues/124
 if ( !defined( DB_SLAVE ) ) {
-    define( 'DB_SLAVE', DB_REPLICA );
+    // DB_REPLICA was not working (at least with `force_check`) so switched
+    //   to DB_MASTER 
+    define( 'DB_SLAVE', DB_MASTER );
 }
 
 require('CheckBADIPagesCreatedLinks.php');
